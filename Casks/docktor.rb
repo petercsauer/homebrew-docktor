@@ -2,8 +2,7 @@ cask "docktor" do
   version "0.13.1"
   sha256 "5113fe188a1d330fb2ee0c439012c8c1ea28c14d577c763ab864a707f7ed6428"
 
-  url "https://github.com/petercsauer/docktor-releases/releases/download/v#{version}/docktor-#{version}.dmg",
-      verified: "github.com/petercsauer/docktor-releases/"
+  url "https://github.com/petercsauer/docktor-releases/releases/download/v#{version}/docktor-#{version}.dmg"
   name "docktor"
   desc "Live Dock window previews, Cmd+Tab switcher, and glass widgets for the Dock"
   homepage "https://docktorapp.com/"
@@ -17,7 +16,7 @@ cask "docktor" do
   end
 
   auto_updates true
-  depends_on macos: ">= :tahoe" # macOS 26.0 (Tahoe) or later
+  depends_on macos: :tahoe # macOS 26.0 (Tahoe) or later
 
   app "docktor.app"
 
