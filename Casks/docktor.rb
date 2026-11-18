@@ -1,6 +1,6 @@
 cask "docktor" do
-  version "0.16.1"
-  sha256 "2481349008d1e4a8745c61c64ede5bc84d4bb7601a5ea152b3922ac680db0f9f"
+  version "0.16.2"
+  sha256 "ce653a18a61ea661efbb659f2f7c58a8368da0503f6683451f9e6617c9aca4ed"
 
   url "https://github.com/petercsauer/docktor-releases/releases/download/v#{version}/docktor-#{version}.dmg"
   name "docktor"
